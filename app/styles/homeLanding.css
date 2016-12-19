@@ -1,0 +1,37 @@
+html, body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   background-image: url(../assets/images/repeating-conic2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+  /* background-color: rgb(43, 49, 239); /* sets the background color to an RGB value (see below) */
+ }
+
+.sidebar-content {
+     position: relative; 
+     background-image: url(../assets/images/wav_home_bkgnd.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 98%;
+     width: 40%;
+     float: left;
+     padding: 1em;
+ }
+
+.sidebar-content .hero-title {
+     position: relative;             /* positioning will be explained in a resource */
+     top: 5%;                       /* positioning will be explained in a resource */
+     -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+     width: 100%;                    /* makes sure the title inhabits the full width of its container */
+     text-align: top left;           /* aligns text in the horizontal center of the element */
+     font-size: 3rem;
+     font-weight: 400;               /* makes the font thinner or lighter weight */
+     letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
+     text-shadow: 2px 2px 1px rgb(43, 49, 239); /* creates a shadow underneath the text for readability over the image */
+     color: white;
+ }
