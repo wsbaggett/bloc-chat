@@ -1,0 +1,14 @@
+<section ng-controller="RoomCtrl as room">
+
+   <div class="room-container">Available Rooms</div>
+    
+    <table class="room-data-table">
+         <tr class="avail-rooms" ng-repeat="room in availRooms">
+             
+             <td class="room-name">{{room.name}}</td>
+             
+         </tr>
+     </table>
+   
+   
+</section>

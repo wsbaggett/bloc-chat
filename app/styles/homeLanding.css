@@ -28,7 +28,7 @@ html, body {
      -ms-transform: translateY(-50%);
      transform: translateY(-50%);
      width: 100%;                    /* makes sure the title inhabits the full width of its container */
-     text-align: top left;           /* aligns text in the horizontal center of the element */
+     text-align: center;           /* aligns text in the horizontal center of the element */
      font-size: 3rem;
      font-weight: 400;               /* makes the font thinner or lighter weight */
      letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
