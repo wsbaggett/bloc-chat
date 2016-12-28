@@ -14,7 +14,7 @@ html, body {
      background-image: url(../assets/images/wav_home_bkgnd.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-     height: 98%;
+     height: 100%;
      width: 40%;
      float: left;
      padding: 1em;
@@ -29,9 +29,20 @@ html, body {
      transform: translateY(-50%);
      width: 100%;                    /* makes sure the title inhabits the full width of its container */
      text-align: center;           /* aligns text in the horizontal center of the element */
-     font-size: 3rem;
+     font-size: 4rem;
      font-weight: 400;               /* makes the font thinner or lighter weight */
      letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
      text-shadow: 2px 2px 1px rgb(43, 49, 239); /* creates a shadow underneath the text for readability over the image */
      color: white;
+     padding-bottom: 20px;
  }
+
+.sidebar-content .new-room-button {
+    position: relative;
+    font-size: 20px;
+    border-radius: 8px;
+    width: auto;
+    height: 40px;
+}
+    
+    

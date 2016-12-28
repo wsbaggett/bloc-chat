@@ -4,7 +4,9 @@
     </a>
       
     <h1 class="hero-title">{{ home.heroTitle }}</h1>
-  
-  <ng-include src="'/templates/room.html'"></ng-include>
       
-  </div>       
+    <button type="button" class="btn btn-default btn-lg" ng-click="home.createRoomModal()">New Room</button>
+  
+    <ng-include src="'/templates/room.html'"></ng-include>
+      
+   </div>

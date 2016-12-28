@@ -1,0 +1,28 @@
+.roomPopup {
+    padding: 9px 15px;    
+    
+}
+
+.modal-create-room-title .modal-title {
+     font-size: 3rem;
+     font-weight: 400;               
+     letter-spacing: 0.5rem;
+     padding-bottom: 1px;
+     color:blue;
+     text-align: center;   
+ }
+
+.form-group .modal-input-box {
+     position: relative;
+     color:red;
+     padding-left: 2px;
+     padding-right: 5px;
+}
+
+.form-group .buttons {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
