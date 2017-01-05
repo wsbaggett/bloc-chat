@@ -1,0 +1,21 @@
+<section class="message-container">
+
+   <div class="message-title">Messages</div>
+    
+   <div class="message-room">{{ msg.currentRoomName }}</div>
+    
+   <div class="message-start">Room Messages Below:</div>    
+    
+    <table class="message-data-table">
+         <tr class="room-messages" ng-repeat="message in allMessages">
+             
+             <td class="message-data-data">
+             {{ message.username }} <BR>
+             {{ message.content }} <BR>
+             {{ message.sentAt }}
+             </td>
+             
+         </tr>
+     </table>
+   
+</section>

@@ -15,6 +15,7 @@ html, body {
      background-repeat: no-repeat;
      background-size: cover;
      height: 100%;
+     margin-top: 80px;
      width: 40%;
      float: left;
      padding: 1em;
@@ -44,5 +45,3 @@ html, body {
     width: auto;
     height: 40px;
 }
-    
-    

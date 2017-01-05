@@ -13,6 +13,12 @@
              templateUrl: '/templates/home.html'
          })
          
+         .state('messageContainer', {
+             url: '/messages',
+             controller: 'MessageCtrl as msg',
+             templateUrl: '/templates/messageContainer.html'
+         });
+         
      }
     
      angular

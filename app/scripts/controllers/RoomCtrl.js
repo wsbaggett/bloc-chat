@@ -1,9 +1,15 @@
 (function() {
-     function RoomCtrl(Room, $scope) {
+     function RoomCtrl(Room, Message, $scope, $rootScope) {
         $scope.availRooms = Room.all;
+         
+         this.selectRoom = function(room) {
+             // Tell room service what room is active
+             Room.selectRoom(room);
+             $rootScope.selectedRoom=room;
+         }
      }
  
      angular
          .module('blocChat')
-         .controller('RoomCtrl', ['Room', '$scope', RoomCtrl]);
+         .controller('RoomCtrl', ['Room', 'Message', '$scope', '$rootScope', RoomCtrl]);
  })();

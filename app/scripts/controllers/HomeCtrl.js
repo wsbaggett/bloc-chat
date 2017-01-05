@@ -1,20 +1,17 @@
 (function() {
-     function HomeCtrl(Room, $uibModal) {
+     function HomeCtrl($uibModal) {
          this.heroTitle = "Bloc Chat";
          this.createRoomModal=function() {
-            var modal=$uibModal.open({
+            $uibModal.open({
             templateUrl: 'templates/createRoomModal.html',
             controller: 'ModalRoomCtrl as modRoom',   
             size: 'sm'
             }); 
              
-             modal.result.then(function(name) {
-                 Room.addIt(name);
-             });
          }
      }
  
      angular
          .module('blocChat')
-         .controller('HomeCtrl', ['Room', '$uibModal', HomeCtrl]);
+         .controller('HomeCtrl', ['$uibModal', HomeCtrl]);
  })();

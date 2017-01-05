@@ -5,8 +5,8 @@
     <table class="room-data-table">
          <tr class="avail-rooms" ng-repeat="rooms2 in availRooms">
              
-             <td class="room-name">{{rooms2.name}}</td>
-             
+             <td> <a ui-sref="messageContainer" 
+                     class="room-name" ng-click="room.selectRoom(rooms2)">  <span>{{rooms2.name}}</span> </a> </td>
          </tr>
      </table>
    

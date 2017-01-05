@@ -1,0 +1,61 @@
+.message-container {
+     position: relative; 
+     background-image: url(../assets/images/wav_home_bkgnd2.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100%;
+     width: 59%;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     padding-left: 30px;
+     padding-right: 1px;
+     float: right;
+}
+
+.message-container .message-title {
+     position: relative;
+     text-align: center;
+     font-size: 4rem;
+     font-weight: 400;               /* makes the font thinner or lighter weight */
+     letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
+     text-shadow: 2px 2px 1px rgb(43, 49, 239); 
+     color: white;
+     padding-top: 70px;
+     padding-bottom: 5px;
+     text-shadow: 2px 2px 1px rgb(0, 0, 0);
+     color: white; 
+ }
+
+.message-container .message-room {
+     position: relative;
+     text-align: center;
+     font-size: 3rem;
+     font-weight: 300;               
+     letter-spacing: 0.5rem;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     text-shadow: 2px 2px 1px rgb(0, 0, 0);
+     color: yellow; 
+ }
+
+.message-container .message-start {
+     position: relative;
+     text-align: left;
+     padding-top: 3px;
+     padding-bottom: 5px;
+     font-size: 2rem;
+     font-weight: 200;               
+     letter-spacing: 0.5rem;
+     color: red;
+}
+
+.message-container .message-data-table .message-data-data {
+     position: relative;
+     text-align: left;
+     padding-top: 6px;
+     padding-bottom: 5px;
+     font-size: 2rem;
+     font-weight: 100;               
+     letter-spacing: 0.5rem;
+     color: ghostwhite;
+}

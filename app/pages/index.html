@@ -12,8 +12,13 @@
     <link rel="stylesheet" href="/styles/homeLanding.css">
     <link rel="stylesheet" href="/styles/room.css">
     <link rel="stylesheet" href="/styles/roomModal.css">
+    <link rel="stylesheet" href="/styles/messageContainer.css">
 </head>
 <body>
+    
+    <a ui-sref="home" class="logo">
+        <img src="assets/images/bloc-logo-white.png" alt="bloc logo">
+    </a>
     
     <ui-view></ui-view>
      
@@ -28,8 +33,11 @@
     <script src="/scripts/controllers/HomeCtrl.js"></script>
     <script src="/scripts/controllers/RoomCtrl.js"></script>
     <script src="/scripts/controllers/ModalRoomCtrl.js"></script>
+    <script src="/scripts/controllers/MessageCtrl.js"></script>
     <script src="/scripts/services/Room.js"></script>
+    <script src="/scripts/services/Message.js"></script>
     
+    <ng-include src="'/templates/room.html'"></ng-include>
 </body>   
     
 </html>
