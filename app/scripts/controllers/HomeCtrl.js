@@ -6,9 +6,9 @@
             templateUrl: 'templates/createRoomModal.html',
             controller: 'ModalRoomCtrl as modRoom',   
             size: 'sm'
-            }); 
-             
+            });   
          }
+         
      }
  
      angular
