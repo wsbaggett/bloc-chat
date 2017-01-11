@@ -7,7 +7,7 @@
                var trimmedUser = $scope.userName.trim(); 
               
                if (trimmedUser != "") {  
-                 $cookies.put('blocChatCurrentUser', 'trimmedUser');
+                 $cookies.put('blocChatCurrentUser', trimmedUser);
                   $uibModalInstance.close(trimmedUser);
                }
              }    

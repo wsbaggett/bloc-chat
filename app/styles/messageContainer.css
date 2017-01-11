@@ -6,7 +6,7 @@
      height: 100%;
      width: 59%;
      padding-top: 20px;
-     padding-bottom: 10px;
+     padding-bottom: 20px;
      padding-left: 30px;
      padding-right: 1px;
      float: right;
@@ -58,4 +58,9 @@
      font-weight: 100;               
      letter-spacing: 0.5rem;
      color: ghostwhite;
+}
+
+.message-container .message-text-input .form-group {
+    padding-top: 20px;
+    padding-right: 10px;   
 }

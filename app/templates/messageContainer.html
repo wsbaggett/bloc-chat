@@ -1,4 +1,4 @@
-<section class="message-container">
+<section class="message-container" ng-submit="sendMessage()">
 
    <div class="message-title">Messages</div>
     
@@ -17,5 +17,12 @@
              
          </tr>
      </table>
+        
+<form class="message-text-input">
+ <div class="form-group">    
+   <input class="form-control input-lg" type="text" ng-model="messageText" placeholder="Type message here..."> 
+ </div>
+ <button type="submit" class="btn btn-primary" ng-click="msg.sendMessage()">Submit</button> 
+</form>        
    
 </section>
